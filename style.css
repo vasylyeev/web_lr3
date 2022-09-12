@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper{
+    padding: 20px;
+    width: 50%;
+}
+
+.float-wrapper{
+    height: 400px;
+}
+
+.float-img-green-container{
+    background: lightgreen;
+    float: left;
+    height: 350px;
+    width: 30%;
+    position: relative;
+}
+
+.float-text-blue-container{
+    background: lightblue;
+    float: left;
+    height: 50px;
+    width: 70%;
+    position: relative;
+}
+
+.float-img-yellow-container{
+    background: yellow;
+    float: left;
+    height: 300px;
+    width: 40%;
+    position: relative;
+}
+
+.float-text-pink-container{
+    background: pink;
+    float: right;
+    height: 350px;
+    width: 30%;
+    position: relative;
+}
+
+.float-text-orange-container{
+    background: orange;
+    float: left;
+    height: 50px;
+    width: 70%;
+    position: relative;
+}
+
+.flex-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-img-green-container{
+    background: lightgreen;
+    position: relative;
+    width: 30%;
+    height: 350px;
+    top: -50px;
+}
+
+.flex-text-blue-container{
+    background: lightblue;
+    position: relative;
+    width: 70%;
+    height: 50px;
+    margin-left: 30%;
+}
+
+.flex-img-yellow-container{
+    background: yellow;
+    position: relative;
+    width: 40%;
+    height: 300px;
+}
+
+.flex-text-pink-container{
+    background: pink;
+    position: relative;
+    width: 30%;
+}
+
+.flex-text-orange-container{
+    background: orange;
+    position: relative;
+    width: 70%;
+    height: 50px;
+    top: -50px;
+}
+
+
+
